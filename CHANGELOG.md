@@ -3,6 +3,13 @@ All notable changes in pdfminer.six will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
+## [20210908]
+
+### Changed
+Made certain modifications to [LTLayoutContainer.analyze](https://github.com/jlemke/pdfminer.six/blob/develop/pdfminer/layout.py#L790) in layout.py
+- Removed textline grouping and sorting
+- Removed empties from final object list and analyzing them
+
 ## [Unreleased]
 
 ### Added
